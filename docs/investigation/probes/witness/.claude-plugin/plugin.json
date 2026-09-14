@@ -1,0 +1,1 @@
+{ "name": "witness", "version": "0.0.1", "description": "test witness: logs the transcript at every turn end and every prompt submit" }

@@ -1,0 +1,34 @@
+2026-09-14T19:34:14.415Z [DEBUG] hooks module aside loaded (worker, environment 1, tier user); events: session.start,command.run,ui.render,ui.input,ui.press,ui.close
+2026-09-14T19:34:14.425Z [DEBUG] hooks module witness loaded (worker, environment 2, tier user); events: prompt.submit,turn.complete,ui.render
+2026-09-14T19:34:14.434Z [DEBUG] plugin.register: aside (user, aside@inline), judged by core alone: admitted
+2026-09-14T19:34:14.434Z [DEBUG] plugin.register: witness (user, witness@inline), judged by core alone: admitted
+2026-09-14T19:34:14.594Z [DEBUG] hooks module aside session.start settled in 38.6ms (worker hop, next() included)
+2026-09-14T19:34:27.061Z [DEBUG] [witness] $.ui.log: [witness 19:34:27.043] prompt.submit origin={"kind":"composer"} text="What is 2+2? Reply with the number only, no tools."
+2026-09-14T19:34:27.102Z [DEBUG] hooks module witness prompt.submit settled in 60.7ms (worker hop, next() included)
+2026-09-14T19:34:27.108Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=0ea60e9f-7c56-44de-881d-5b9dede51391 source=repl_main_thread
+2026-09-14T19:34:28.228Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=85e82582-073d-4cad-9794-eb202a8f22a4 source=side_query
+2026-09-14T19:34:28.231Z [DEBUG] [witness] $.ui.log: [witness 19:34:28.230] turn.complete messages n=3 [["user","What is 2+2? Reply with the number only, no tools."],["assistant",""],["assistant","4"]]
+2026-09-14T19:34:28.248Z [DEBUG] hooks module witness turn.complete settled in 28.5ms (worker hop, next() included)
+2026-09-14T19:34:35.079Z [DEBUG] hooks module aside command.run settled in 44.0ms (worker hop, next() included)
+2026-09-14T19:34:35.081Z [DEBUG] hooks module aside+witness ui.render settled in 15.2ms (worker hop, next() included) key=aside
+2026-09-14T19:34:35.083Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=7fa099a8-8418-4e08-8e63-5e6b2e544e51 source=hook_prompt
+2026-09-14T19:34:35.096Z [DEBUG] hooks module aside+witness ui.render settled in 4.1ms (worker hop, next() included) key=aside
+2026-09-14T19:34:36.276Z [DEBUG] Forked agent [plugin_model_fork] finished: 2 messages, types=[assistant, assistant], totalUsage: input=68 output=96 cacheRead=27721 cacheCreate=0
+2026-09-14T19:34:36.276Z [DEBUG] $.model.fork (aside): 1204ms, 1 replies
+2026-09-14T19:34:36.281Z [DEBUG] hooks module aside+witness ui.render settled in 1.2ms (worker hop, next() included) key=aside
+2026-09-14T19:34:41.036Z [DEBUG] hooks module aside ui.input settled in 6.3ms (worker hop, next() included) key=aside
+2026-09-14T19:34:41.036Z [DEBUG] ui.input aside/q (change) in Pane from terminal: settled in 6.7ms
+2026-09-14T19:34:43.051Z [DEBUG] hooks module aside ui.input settled in 10.1ms (worker hop, next() included) key=aside
+2026-09-14T19:34:43.051Z [DEBUG] ui.input aside/q (submit) in Pane from terminal: settled in 10.4ms
+2026-09-14T19:34:43.053Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=f473883a-830e-44a9-ba28-42df7c3ca99b source=hook_prompt
+2026-09-14T19:34:43.059Z [DEBUG] hooks module aside+witness ui.render settled in 1.6ms (worker hop, next() included) key=aside
+2026-09-14T19:34:44.340Z [DEBUG] Forked agent [plugin_model_fork] finished: 2 messages, types=[assistant, assistant], totalUsage: input=113 output=66 cacheRead=27721 cacheCreate=0
+2026-09-14T19:34:44.341Z [DEBUG] $.model.fork (aside): 1299ms, 1 replies
+2026-09-14T19:34:44.347Z [DEBUG] hooks module aside+witness ui.render settled in 1.4ms (worker hop, next() included) key=aside
+2026-09-14T19:34:50.044Z [DEBUG] hooks module aside+witness ui.render settled in 6.8ms (worker hop, next() included) key=aside
+2026-09-14T19:34:54.110Z [DEBUG] [witness] $.ui.log: [witness 19:34:54.094] prompt.submit origin={"kind":"composer"} text="Say OK."
+2026-09-14T19:34:54.127Z [DEBUG] hooks module witness prompt.submit settled in 33.8ms (worker hop, next() included)
+2026-09-14T19:34:54.130Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=c2dbfb83-9056-4635-9f99-04c770cdc882 source=repl_main_thread
+2026-09-14T19:34:54.875Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=283387a0-ed87-467b-8165-887ab75085f9 source=side_query
+2026-09-14T19:34:54.879Z [DEBUG] [witness] $.ui.log: [witness 19:34:54.877] turn.complete messages n=6 [["user","What is 2+2? Reply with the number only, no tools."],["assistant",""],["assistant","4"],["user","Say OK."],["assistant",""],["assistant","OK"]]
+2026-09-14T19:34:54.892Z [DEBUG] hooks module witness turn.complete settled in 24.8ms (worker hop, next() included)

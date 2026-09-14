@@ -1,0 +1,368 @@
+
+======== screen after 15415 bytes (1/8) ========
+  181
+  182
+  183
+  184
+  185
+  186
+  187
+  188
+  189
+  190
+  191
+  192
+  193
+  194
+  195
+  196
+  197
+  198
+  199
+  200
+  201
+  202
+  195
+  196
+  197
+  198
+  199
+  200
+  201
+  202
+  203
+  204
+  205
+  206
+  207
+  208
+  209
+  210
+  211
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+❯
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⚠ Transcript saving is off — inherited CLAUDE_CODE_CHILD_SESSION marker · restart with CLAUDE_CODE_FORCE_SESSION_PERSISTENCE=1 to keep …
+  ⏸ manual mode on · esc to interrupt
+
+======== screen after 30830 bytes (2/8) ========
+  391                                                                        │1 question · 1 pending
+  392                                                                        │you: what is the user asking for right now?
+  393                                                                        │aside: thinking…
+  394                                                                        │
+  395                                                                        │> : Tab to focus, type, Enter to ask, Esc to leave
+  396                                                                        │[ Clear ] [ Close ]
+  389                                                                        │
+  390                                                                        │
+  391                                                                        │
+  392                                                                        │
+  393                                                                        │
+  394                                                                        │
+  395                                                                        │
+  396                                                                        │
+  397                                                                        │
+  398                                                                        │
+  399                                                                        │
+  400                                                                        │
+  401                                                                        │
+  402                                                                        │
+  403                                                                        │
+  404                                                                        │
+  405                                                                        │
+  406                                                                        │
+  407                                                                        │
+  408                                                                        │
+  409                                                                        │
+  410                                                                        │
+  411                                                                        │
+  412                                                                        │
+  413                                                                        │
+  414                                                                        │
+  415                                                                        │
+  416                                                                        │
+  417                                                                        │
+  418                                                                        │
+  419                                                                        │
+  420                                                                        │
+  421                                                                        │
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+❯
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⚠ Transcript saving is off — inherited CLAUDE_CODE_CHILD_SESSION marker · restart with CLAUDE_CODE_FORCE_SESSION_PERSISTENCE=1 to keep …
+  ⏸ manual mode on · esc to interrupt
+
+======== screen after 46245 bytes (3/8) ========
+  653                                                                        │1 question
+  654                                                                        │you: what is the user asking for right now?
+  655                                                                        │aside: The user is asking me to count from 1 to 1500, with
+  656                                                                        │each number on a separate line, containing only the numbers
+  657                                                                        │with no additional text or tool use.
+  658                                                                        │live · 823 ms · live: 86 chars of transcript sent uncached
+  659                                                                        │
+  660                                                                        │> : Tab to focus, type, Enter to ask, Esc to leave ⏎ ask
+  661                                                                        │[ Clear ] [ Close ]
+  662                                                                        │
+  663                                                                        │
+  664                                                                        │
+  665                                                                        │
+  666                                                                        │
+  667                                                                        │
+  668                                                                        │
+  669                                                                        │
+  670                                                                        │
+  671                                                                        │
+  672                                                                        │
+  673                                                                        │
+  674                                                                        │
+  675                                                                        │
+  676                                                                        │
+  677                                                                        │
+  678                                                                        │
+  679                                                                        │
+  680                                                                        │
+  681                                                                        │
+  682                                                                        │
+  683                                                                        │
+  684                                                                        │
+  685                                                                        │
+  686                                                                        │
+  687                                                                        │
+  688                                                                        │
+  689                                                                        │
+  682                                                                        │
+  683                                                                        │
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+❯
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⚠ Transcript saving is off — inherited CLAUDE_CODE_CHILD_SESSION marker · restart with CLAUDE_CODE_FORCE_SESSION_PERSISTENCE=1 to keep …
+  ⏸ manual mode on · esc to interrupt
+
+======== screen after 61661 bytes (4/8) ========
+  923                                                                        │2 questions · 1 pending
+  924                                                                        │you: what is the user asking for right now?
+  925                                                                        │aside: The user is asking me to count from 1 to 1500, with
+  926                                                                        │each number on a separate line, containing only the numbers
+  927                                                                        │with no additional text or tool use.
+  928                                                                        │live · 823 ms · live: 86 chars of transcript sent uncached
+  929                                                                        │
+  930                                                                        │you: is it done yet?
+  931                                                                        │aside: thinking…
+  932                                                                        │
+  933                                                                        │> : Tab to focus, type, Enter to ask, Esc to leave ⏎ ask
+  934                                                                        │[ Clear ] [ Close ]
+  935                                                                        │
+  936                                                                        │
+  937                                                                        │
+  938                                                                        │
+  939                                                                        │
+  940                                                                        │
+  941                                                                        │
+  942                                                                        │
+  943                                                                        │
+  944                                                                        │
+  945                                                                        │
+  946                                                                        │
+  947                                                                        │
+  948                                                                        │
+  949                                                                        │
+  950                                                                        │
+  951                                                                        │
+  952                                                                        │
+  953                                                                        │
+  954                                                                        │
+  955                                                                        │
+  948                                                                        │
+  949                                                                        │
+  950                                                                        │
+  951                                                                        │
+  952                                                                        │
+  953                                                                        │
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+❯
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⚠ Transcript saving is off — inherited CLAUDE_CODE_CHILD_SESSION marker · restart with CLAUDE_CODE_FORCE_SESSION_PERSISTENCE=1 to keep …
+  ⏸ manual mode on · esc to interrupt
+
+======== screen after 77076 bytes (5/8) ========
+  1126                                                                       │2 questions
+  1127                                                                       │you: what is the user asking for right now?
+  1128                                                                       │aside: The user is asking me to count from 1 to 1500, with
+  1129                                                                       │each number on a separate line, containing only the numbers
+  1130                                                                       │with no additional text or tool use.
+  1131                                                                       │live · 823 ms · live: 86 chars of transcript sent uncached
+  1132                                                                       │
+  1133                                                                       │you: is it done yet?
+  1134                                                                       │aside: No, it is not done yet. My response has not begun. The
+  1130                                                                       │user's request is clear, but I haven't started providing the
+  1131                                                                       │count from 1 to 1500.
+  1132                                                                       │live · 940 ms · live: 86 chars of transcript sent uncached
+  1133                                                                       │
+  1134                                                                       │> : Tab to focus, type, Enter to ask, Esc to leave ⏎ ask
+  1135                                                                       │[ Clear ] [ Close ]
+  1136                                                                       │
+  1137                                                                       │
+  1138                                                                       │
+  1139                                                                       │
+  1140                                                                       │
+  1141                                                                       │
+  1142                                                                       │
+  1143                                                                       │
+  1144                                                                       │
+  1145                                                                       │
+  1146                                                                       │
+  1147                                                                       │
+  1148                                                                       │
+  1149                                                                       │
+  1150                                                                       │
+  1151                                                                       │
+  1152                                                                       │
+  1153                                                                       │
+  1154                                                                       │
+  1155                                                                       │
+  1156                                                                       │
+  1157                                                                       │
+  1158                                                                       │
+  1159                                                                       │
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+❯
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⚠ Transcript saving is off — inherited CLAUDE_CODE_CHILD_SESSION marker · restart with CLAUDE_CODE_FORCE_SESSION_PERSISTENCE=1 to keep …
+  ⏸ manual mode on · esc to interrupt
+
+======== screen after 92491 bytes (6/8) ========
+  1322                                                                       │2 questions
+  1323                                                                       │you: what is the user asking for right now?
+  1324                                                                       │aside: The user is asking me to count from 1 to 1500, with
+  1325                                                                       │each number on a separate line, containing only the numbers
+  1326                                                                       │with no additional text or tool use.
+  1327                                                                       │live · 823 ms · live: 86 chars of transcript sent uncached
+  1328                                                                       │
+  1329                                                                       │you: is it done yet?
+  1330                                                                       │aside: No, it is not done yet. My response has not begun. The
+  1331                                                                       │user's request is clear, but I haven't started providing the
+  1332                                                                       │count from 1 to 1500.
+  1333                                                                       │live · 940 ms · live: 86 chars of transcript sent uncached
+  1334                                                                       │
+  1335                                                                       │> : ctrl+x tab focuses the pane
+  1336                                                                       │[ Clear ] [ Close ]
+  1337                                                                       │
+  1338                                                                       │
+  1333                                                                       │
+  1334                                                                       │
+  1335                                                                       │
+  1336                                                                       │
+  1337                                                                       │
+  1338                                                                       │
+  1339                                                                       │
+  1340                                                                       │
+  1341                                                                       │
+  1342                                                                       │
+  1343                                                                       │
+  1344                                                                       │
+  1345                                                                       │
+  1346                                                                       │
+  1347                                                                       │
+  1348                                                                       │
+  1349                                                                       │
+  1350                                                                       │
+  1351                                                                       │
+  1352                                                                       │
+  1353                                                                       │
+  1354                                                                       │
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+❯
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⚠ Transcript saving is off — inherited CLAUDE_CODE_CHILD_SESSION marker · restart with CLAUDE_CODE_FORCE_SESSION_PERSISTENCE=1 to keep …
+  ⏸ manual mode on · esc to interrupt
+
+======== screen after 107906 bytes (7/8) ========
+  1478                                                                       │2 questions
+  1479                                                                       │you: what is the user asking for right now?
+  1480                                                                       │aside: The user is asking me to count from 1 to 1500, with
+  1481                                                                       │each number on a separate line, containing only the numbers
+  1482                                                                       │with no additional text or tool use.
+  1483                                                                       │live · 823 ms · live: 86 chars of transcript sent uncached
+  1484                                                                       │
+  1485                                                                       │you: is it done yet?
+  1486                                                                       │aside: No, it is not done yet. My response has not begun. The
+  1487                                                                       │user's request is clear, but I haven't started providing the
+  1488                                                                       │count from 1 to 1500.
+  1489                                                                       │live · 940 ms · live: 86 chars of transcript sent uncached
+  1490                                                                       │
+  1491                                                                       │> : ctrl+x tab focuses the pane
+  1492                                                                       │[ Clear ] [ Close ]
+  1493                                                                       │
+  1494                                                                       │
+  1495                                                                       │
+  1496                                                                       │
+  1497                                                                       │
+  1498                                                                       │
+  1499                                                                       │
+  1500                                                                       │
+                                                                             │
+✻ Cogitated for 24s · done 7:37 PM                                           │
+                                                                             │
+● witness: [witness 19:37:09.486] turn.complete messages n=3                 │
+  [["user","Count from 1 to 1500, one number per line, no other text,        │
+  no tools."],["assistant",""],["assistant","1\n2\n3\n4\n5\n6\n7\n8\         │
+  n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\        │
+  n26\n2"]]                                                                  │
+                                                                             │
+● witness: [witness 19:37:37.689] prompt.submit                              │
+  origin={"kind":"composer"} text="and now, is it done?"                     │
+                                                                             │
+❯ and now, is it done?                                                       │
+                                                                             │
+· Smooshing…                                                                 │
+  ⎿  Tip: Run claude --continue or claude --resume to resume a conversation  │
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+❯
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⚠ Transcript saving is off — inherited CLAUDE_CODE_CHILD_SESSION marker · restart with CLAUDE_CODE_FORCE_SESSION_PERSISTENCE=1 to keep …
+  ⏸ manual mode on · esc to interrupt
+
+======== screen after 123322 bytes (8/8) ========
+  [["user","Count from 1 to 1500, one number per line, no other text,        │2 questions
+  no tools."],["assistant",""],["assistant","1\n2\n3\n4\n5\n6\n7\n8\         │you: what is the user asking for right now?
+  n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\        │aside: The user is asking me to count from 1 to 1500, with
+  n26\n2"]]                                                                  │each number on a separate line, containing only the numbers
+                                                                             │with no additional text or tool use.
+● witness: [witness 19:37:37.689] prompt.submit                              │live · 823 ms · live: 86 chars of transcript sent uncached
+  origin={"kind":"composer"} text="and now, is it done?"                     │
+                                                                             │you: is it done yet?
+❯ and now, is it done?                                                       │aside: No, it is not done yet. My response has not begun. The
+                                                                             │user's request is clear, but I haven't started providing the
+● Yes, it's done. I counted from 1 to 1500, one number per line.             │count from 1 to 1500.
+                                                                             │live · 940 ms · live: 86 chars of transcript sent uncached
+✻ Cooked for 1s · done 7:37 PM                                               │
+                                                                             │> : ctrl+x tab focuses the pane
+● witness: [witness 19:37:39.305] turn.complete messages n=6                 │[ Clear ] [ Close ]
+  [["user","Count from 1 to 1500, one number per line, no other text,        │
+  no tools."],["assistant",""],["assistant","1\n2\n3\n4\n5\n6\n7\n8\         │
+  n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\        │
+  n26\n2"],["user","and now, is it                                           │
+  done?"],["assistant",""],["assistant","Yes, it's done. I counted           │
+  from 1 to 1500, one number per line."]]                                    │
+                                                                             │
+● witness: [witness 19:37:46.775] prompt.submit                              │
+  origin={"kind":"composer"} text="Say OK."                                  │
+                                                                             │
+❯ Say OK.                                                                    │
+                                                                             │
+● OK.                                                                        │
+                                                                             │
+✻ Worked for 0s · done 7:37 PM                                               │
+                                                                             │
+● witness: [witness 19:37:47.800] turn.complete messages n=9                 │
+  [["user","Count from 1 to 1500, one number per line, no other text,        │
+  no tools."],["assistant",""],["assistant","1\n2\n3\n4\n5\n6\n7\n8\         │
+  n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\        │
+  /exit                                Exit the CLI
+  /context                             Visualize current context usage as a colored grid
+  /design                              Create a design canvas - a multi-artboard visual design published as an Artifact that runs Claude
+                                       Design's canvas editor (an early preview of Claude Design inside Claude Code). You DRAFT the desig…
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+❯ /exituuu
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⚠ Transcript saving is off — inherited CLAUDE_CODE_CHILD_SESSION marker · restart with CLAUDE_CODE_FORCE_SESSION_PERSISTENCE=1 to keep …
+  ⏸ manual mode on

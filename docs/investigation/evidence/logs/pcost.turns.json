@@ -1,0 +1,30 @@
+[
+ [
+  1,
+  "Here is a large TypeScript declaration file. Read it and reply with just the word LOADED, no tools.\n\n// Written by Claude Code 2.1.270.\n// Claude Code function hooks: the plugin API's TypeScript decla... [160000 chars of claude-code.d.ts]"
+ ],
+ [
+  3,
+  "/aside in one sentence, what kind of file did I paste?"
+ ],
+ [
+  3,
+  "/aside which module does the file declare?"
+ ],
+ [
+  3,
+  "/compact"
+ ],
+ [
+  3,
+  "/aside after compaction: what did I paste earlier?"
+ ],
+ [
+  3,
+  "Reply with the word WARM only."
+ ],
+ [
+  3,
+  "/aside after a new turn: what did I paste earlier?"
+ ]
+]

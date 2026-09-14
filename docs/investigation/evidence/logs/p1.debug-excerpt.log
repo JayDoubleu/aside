@@ -1,0 +1,49 @@
+2026-09-14T19:17:19.396Z [DEBUG] hooks module p1 loaded (worker, environment 1, tier user); events: session.start,command.run,turn.complete
+2026-09-14T19:17:19.398Z [DEBUG] plugin.register: p1 (user, p1@inline), judged by core alone: admitted
+2026-09-14T19:17:19.553Z [DEBUG] [p1] $.ui.log: [p1 19:17:19.548] session.start surface=null isInteractive=false
+2026-09-14T19:17:19.553Z [DEBUG] [p1] $.ui.log: [p1 19:17:19.548] $.plugin.name=p1 root=<scratch>/probes/p1
+2026-09-14T19:17:19.553Z [DEBUG] $.model.fork (p1): no warm main-thread transcript to fork
+2026-09-14T19:17:19.557Z [DEBUG] [p1] $.ui.log: [p1 19:17:19.553] fork@session.start -> null in 5ms
+2026-09-14T19:17:19.558Z [DEBUG] [p1] $.ui.log: [p1 19:17:19.558] fork({"messages":[{"role":"user","content":"hi"}]}) -> rejected: HooksError: p1: model.fork: takes { prompt } (a non-empty prompt) (host check)
+2026-09-14T19:17:19.564Z [DEBUG] [p1] $.ui.log: [p1 19:17:19.559] fork({"prompt":""}) -> rejected: HooksError: p1: model.fork: takes { prompt } (a non-empty prompt) (host check)
+2026-09-14T19:17:19.564Z [DEBUG] $.model.fork (p1): no warm main-thread transcript to fork
+2026-09-14T19:17:19.566Z [DEBUG] [p1] $.ui.log: [p1 19:17:19.564] fork({"prompt":"x","system":"y","maxTokens":[REDACTED]}) -> resolved null
+2026-09-14T19:17:19.568Z [DEBUG] [p1] $.ui.log: [p1 19:17:19.566] fork("str") -> rejected: HooksError: p1: model.fork: takes { prompt } (a non-empty prompt) (host check)
+2026-09-14T19:17:19.570Z [DEBUG] [p1] $.ui.log: [p1 19:17:19.569] command.register -> {"command":"aside"}
+2026-09-14T19:17:19.624Z [DEBUG] [p1] $.ui.log: [p1 19:17:19.624] store p1.runs prev=undefined keys=["p1.runs"]
+2026-09-14T19:17:19.631Z [DEBUG] hooks module p1 session.start settled in 88.4ms (worker hop, next() included)
+2026-09-14T19:17:22.233Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=7472872e-62df-459c-a306-0454ff54b46a source=side_query
+2026-09-14T19:17:23.001Z [DEBUG] [p1] $.ui.log: [p1 19:17:23.001] turn 1 session.messages n=3 [{"role":"user","text":53,"tu":0},{"role":"assistant","text":0,"tu":0},{"role":"assistant","text":3,"tu":0}]
+2026-09-14T19:17:23.013Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=853038b2-9b68-469f-a506-f4844d635dac source=hook_prompt
+2026-09-14T19:17:24.903Z [DEBUG] Forked agent [plugin_model_fork] finished: 2 messages, types=[assistant, assistant], totalUsage: input=32 output=182 cacheRead=26678 cacheCreate=122
+2026-09-14T19:17:24.903Z [DEBUG] $.model.fork (p1): 1902ms, 1 replies
+2026-09-14T19:17:24.904Z [DEBUG] [p1] $.ui.log: [p1 19:17:24.904] turn 1 awaited fork -> {"len":44,"usage":{"input_tokens":[REDACTED],"output_tokens":[REDACTED],"cache_read_input_tokens":[REDACTED],"cache_creation_input_tokens":[REDACTED]},"head":"The user asked you to calculate 17 times 23."} in 1903ms signal.aborted=false
+2026-09-14T19:17:24.912Z [DEBUG] [p1] $.ui.log: [p1 19:17:24.904] turn 1 hook returning without awaiting detached fork (1903ms in hook)
+2026-09-14T19:17:24.914Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=50ab1819-2466-48d3-b046-d0322c9db988 source=hook_prompt
+2026-09-14T19:17:24.915Z [DEBUG] hooks module p1 turn.complete settled in 1916.9ms (worker hop, next() included)
+2026-09-14T19:17:26.527Z [DEBUG] Forked agent [plugin_model_fork] finished: 2 messages, types=[assistant, assistant], totalUsage: input=22 output=37 cacheRead=26800 cacheCreate=0
+2026-09-14T19:17:26.527Z [DEBUG] $.model.fork (p1): 1623ms, 1 replies
+2026-09-14T19:17:26.531Z [DEBUG] [p1] $.ui.log: [p1 19:17:26.528] detached fork settled after 1624ms -> {"text":"DETACHED","usage":{"input_tokens":[REDACTED],"output_tokens":[REDACTED],"cache_read_input_tokens":[REDACTED],"cache_creation_input_tokens":[REDACTED]}}; store.set from continuation...
+2026-09-14T19:17:26.533Z [DEBUG] [p1] $.ui.log: [p1 19:17:26.532] store.set from continuation ok
+2026-09-14T19:17:29.907Z [DEBUG] [p1] $.ui.log: [p1 19:17:29.906] clock.every tick
+2026-09-14T19:17:34.908Z [DEBUG] [p1] $.ui.log: [p1 19:17:34.908] clock.every tick
+2026-09-14T19:17:39.910Z [DEBUG] [p1] $.ui.log: [p1 19:17:39.909] clock.every tick
+2026-09-14T19:17:44.907Z [DEBUG] [p1] $.ui.log: [p1 19:17:44.906] clock.after(20000) fired; signal.aborted=false
+2026-09-14T19:17:44.909Z [DEBUG] [p1] $.ui.log: [p1 19:17:44.908] clock.after store.get p1.detached={"at":1789413446528,"text":"DETACHED"}
+2026-09-14T19:17:44.910Z [DEBUG] [p1] $.ui.log: [p1 19:17:44.909] clock.every tick
+2026-09-14T19:17:53.011Z [DEBUG] [p1] $.ui.log: [p1 19:17:53.010] command.run aside args="what number did I ask you to multiply?" origin={"kind":"sdk"}
+2026-09-14T19:17:53.023Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=01ac2afd-9ad8-4daf-8003-6979cbb630a5 source=hook_prompt
+2026-09-14T19:17:54.791Z [DEBUG] Forked agent [plugin_model_fork] finished: 2 messages, types=[assistant, assistant], totalUsage: input=36 output=57 cacheRead=26800 cacheCreate=0
+2026-09-14T19:17:54.791Z [DEBUG] $.model.fork (p1): 1780ms, 1 replies
+2026-09-14T19:17:54.792Z [DEBUG] [p1] $.ui.log: [p1 19:17:54.792] fork@command.run -> {"len":10,"usage":{"input_tokens":[REDACTED],"output_tokens":[REDACTED],"cache_read_input_tokens":[REDACTED],"cache_creation_input_tokens":[REDACTED]},"head":"17 and 23."} in 1782ms
+2026-09-14T19:17:54.792Z [DEBUG] hooks module p1 command.run settled in 1783.3ms (worker hop, next() included)
+2026-09-14T19:17:59.416Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=51f0099a-5adf-4fea-8d1e-e183f6889218 source=side_query
+2026-09-14T19:18:00.223Z [DEBUG] [p1] $.ui.log: [p1 19:18:00.223] turn 2 session.messages n=7 [{"role":"user","text":53,"tu":0},{"role":"assistant","text":0,"tu":0},{"role":"assistant","text":3,"tu":0},{"role":"user","text":168,"tu":0},{"role":"user","text":41,"tu":0},{"role":"assistant","text":0,"tu":0},{"role":"assistant","text":6,"tu":0}]
+2026-09-14T19:18:00.224Z [DEBUG] [p1] $.ui.log: [p1 19:18:00.223] turn 2 store.get p1.detached={"at":1789413446528,"text":"DETACHED"}
+2026-09-14T19:18:00.224Z [DEBUG] [p1] $.ui.log: [p1 19:18:00.223] turn 2 sleeping 15s to overrun the budget
+2026-09-14T19:18:10.227Z [DEBUG] [p1] $.ui.log: [p1 19:18:10.226] turn.complete CATCH kind=timeout budget=1000 message=undefined called=false
+2026-09-14T19:18:10.228Z [DEBUG] [p1] $.ui.log: [p1 19:18:10.227] sleep rejected: HooksError: p1: exceeded 10000ms budget aborted=true
+2026-09-14T19:18:10.228Z [DEBUG] [p1] $.ui.log: [p1 19:18:10.227] turn 2 after sleep; returning next(e)
+2026-09-14T19:18:10.228Z [WARN] hooks module p1: next() after it settled; refused
+2026-09-14T19:18:10.228Z [WARN] hook failed closed: p1: exceeded 10000ms budget (turn.complete; its .catch answered)
+2026-09-14T19:18:10.229Z [DEBUG] hooks module p1 turn.complete settled in 10007.1ms (worker hop, next() included)

@@ -1,0 +1,1 @@
+{ "description": "probe cost", "modules": ["./register.ts"] }

@@ -1,0 +1,37 @@
+2026-09-14T19:57:29.764Z [DEBUG] plugin.register: p2 (user, p2@inline), judged by core alone: admitted
+2026-09-14T19:57:29.958Z [DEBUG] [p2] $.ui.log: [p2 19:57:29.949] session.start isInteractive=true surface="terminal"
+2026-09-14T19:57:30.069Z [DEBUG] [p2] $.ui.log: [p2 19:57:30.068] render AbovePrompt #2 surface=terminal isWorking=false hasSurvey=false maxRows=16 viewport={"columns":140,"rows":45}
+2026-09-14T19:57:42.415Z [DEBUG] [p2] $.ui.log: [p2 19:57:42.394] prompt.submit origin={"kind":"composer"} text="What is 5+5? Reply with the number only, no tools."
+2026-09-14T19:57:42.416Z [DEBUG] [p2] $.ui.log: [p2 19:57:42.411] render AbovePrompt #3 surface=terminal isWorking=true hasSurvey=false maxRows=16 viewport={"columns":140,"rows":45}
+2026-09-14T19:57:42.467Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=41dd195a-3529-4eba-a850-5f370c080579 source=repl_main_thread
+2026-09-14T19:57:43.797Z [DEBUG] [p2] $.ui.log: [p2 19:57:43.795] turn.complete messages n=3 [["user","What is 5+5? Reply with the number only, no tools."],["assistant",""],["assistant","10"]]
+2026-09-14T19:57:43.815Z [DEBUG] [p2] $.ui.log: [p2 19:57:43.811] render AbovePrompt #4 surface=terminal isWorking=false hasSurvey=false maxRows=16 viewport={"columns":140,"rows":45}
+2026-09-14T19:57:50.393Z [DEBUG] [p2] $.ui.log: [p2 19:57:50.377] prompt.submit origin={"kind":"composer"} text="Count from 1 to 1500, one number per line, no other text, no tools."
+2026-09-14T19:57:50.394Z [DEBUG] [p2] $.ui.log: [p2 19:57:50.389] render AbovePrompt #5 surface=terminal isWorking=true hasSurvey=false maxRows=16 viewport={"columns":140,"rows":45}
+2026-09-14T19:57:50.411Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=56335c86-5eca-42d1-8483-356e7897e7e0 source=repl_main_thread
+2026-09-14T19:57:54.867Z [DEBUG] [p2] $.ui.log: [p2 19:57:54.863] ui.input {"plugin":"p2","element":"bandq","component":"AbovePrompt","requestId":"above-prompt","surface":"terminal","kind":"change","value":"first mid turn"}
+2026-09-14T19:57:54.874Z [DEBUG] [p2] $.ui.log: [p2 19:57:54.869] onInput change value="first mid turn"
+2026-09-14T19:57:54.878Z [DEBUG] ui.input p2/bandq (change) in AbovePrompt from terminal: settled in 16.4ms
+2026-09-14T19:57:56.359Z [DEBUG] [p2] $.ui.log: [p2 19:57:56.359] ui.input {"plugin":"p2","element":"bandq","component":"AbovePrompt","requestId":"above-prompt","surface":"terminal","kind":"submit","value":"first mid turn"}
+2026-09-14T19:57:56.370Z [DEBUG] [p2] $.ui.log: [p2 19:57:56.362] onSubmit value="first mid turn" e={"plugin":"p2","element":"bandq","component":"AbovePrompt","requestId":"above-prompt","surface":"terminal","kind":"submit","value":"first mid turn"}
+2026-09-14T19:57:56.385Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=300ac716-c91b-4512-9c47-6188ab101c8e source=hook_prompt
+2026-09-14T19:57:56.386Z [DEBUG] ui.input p2/bandq (submit) in AbovePrompt from terminal: settled in 28.2ms
+2026-09-14T19:57:56.396Z [DEBUG] [p2] $.ui.log: [p2 19:57:56.393] render AbovePrompt #6 surface=terminal isWorking=true hasSurvey=false maxRows=16 viewport={"columns":140,"rows":45}
+2026-09-14T19:57:57.834Z [DEBUG] Forked agent [plugin_model_fork] finished: 2 messages, types=[assistant, assistant], totalUsage: input=28 output=104 cacheRead=27732 cacheCreate=0
+2026-09-14T19:57:57.835Z [DEBUG] $.model.fork (p2): 1463ms, 1 replies
+2026-09-14T19:57:57.836Z [DEBUG] [p2] $.ui.log: [p2 19:57:57.836] band fork settled in 1474ms -> {"input_tokens":[REDACTED],"output_tokens":[REDACTED],"cache_read_input_tokens":[REDACTED],"cache_creation_input_tokens":[REDACTED]}; store.set + invalidate
+2026-09-14T19:57:57.854Z [DEBUG] [p2] $.ui.log: [p2 19:57:57.854] render AbovePrompt #7 surface=terminal isWorking=true hasSurvey=false maxRows=16 viewport={"columns":140,"rows":45}
+2026-09-14T19:57:58.800Z [DEBUG] [p2] $.ui.log: [p2 19:57:58.797] ui.input {"plugin":"p2","element":"bandq","component":"AbovePrompt","requestId":"above-prompt","surface":"terminal","kind":"change","value":"second mid turn"}
+2026-09-14T19:57:58.802Z [DEBUG] [p2] $.ui.log: [p2 19:57:58.802] onInput change value="second mid turn"
+2026-09-14T19:57:58.808Z [DEBUG] ui.input p2/bandq (change) in AbovePrompt from terminal: settled in 12.1ms
+2026-09-14T19:58:00.375Z [DEBUG] [p2] $.ui.log: [p2 19:58:00.374] ui.input {"plugin":"p2","element":"bandq","component":"AbovePrompt","requestId":"above-prompt","surface":"terminal","kind":"submit","value":"second mid turn"}
+2026-09-14T19:58:00.384Z [DEBUG] [p2] $.ui.log: [p2 19:58:00.377] onSubmit value="second mid turn" e={"plugin":"p2","element":"bandq","component":"AbovePrompt","requestId":"above-prompt","surface":"terminal","kind":"submit","value":"second mid turn"}
+2026-09-14T19:58:00.397Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=a90ede48-733f-4b2b-873b-0728b7ac0460 source=hook_prompt
+2026-09-14T19:58:00.398Z [DEBUG] ui.input p2/bandq (submit) in AbovePrompt from terminal: settled in 24.9ms
+2026-09-14T19:58:00.408Z [DEBUG] [p2] $.ui.log: [p2 19:58:00.405] render AbovePrompt #8 surface=terminal isWorking=true hasSurvey=false maxRows=16 viewport={"columns":140,"rows":45}
+2026-09-14T19:58:02.373Z [DEBUG] Forked agent [plugin_model_fork] finished: 2 messages, types=[assistant, assistant], totalUsage: input=28 output=147 cacheRead=27732 cacheCreate=0
+2026-09-14T19:58:02.373Z [DEBUG] $.model.fork (p2): 1987ms, 1 replies
+2026-09-14T19:58:02.374Z [DEBUG] [p2] $.ui.log: [p2 19:58:02.374] band fork settled in 1997ms -> {"input_tokens":[REDACTED],"output_tokens":[REDACTED],"cache_read_input_tokens":[REDACTED],"cache_creation_input_tokens":[REDACTED]}; store.set + invalidate
+2026-09-14T19:58:02.388Z [DEBUG] [p2] $.ui.log: [p2 19:58:02.388] render AbovePrompt #9 surface=terminal isWorking=true hasSurvey=false maxRows=16 viewport={"columns":140,"rows":45}
+2026-09-14T19:58:14.858Z [DEBUG] [p2] $.ui.log: [p2 19:58:14.844] turn.complete messages n=6 [["user","What is 5+5? Reply with the number only, no tools."],["assistant",""],["assistant","10"],["user","Count from 1 to 1500, one number per line, no other text, no"],["assistant",""],["assistant","1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n"]]
+2026-09-14T19:58:14.859Z [DEBUG] [p2] $.ui.log: [p2 19:58:14.854] render AbovePrompt #10 surface=terminal isWorking=false hasSurvey=false maxRows=16 viewport={"columns":140,"rows":45}

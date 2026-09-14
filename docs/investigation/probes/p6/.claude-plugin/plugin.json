@@ -1,0 +1,1 @@
+{ "name": "p6", "version": "0.0.1", "description": "aside probe 6: mid-turn fallbacks (session.messages + model.complete) vs fork" }

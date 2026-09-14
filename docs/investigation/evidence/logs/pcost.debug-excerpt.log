@@ -1,0 +1,31 @@
+2026-09-14T19:21:59.320Z [DEBUG] hooks module pcost loaded (worker, environment 1, tier user); events: session.start,command.run,turn.complete
+2026-09-14T19:21:59.322Z [DEBUG] plugin.register: pcost (user, pcost@inline), judged by core alone: admitted
+2026-09-14T19:21:59.469Z [DEBUG] hooks module pcost session.start settled in 22.4ms (worker hop, next() included)
+2026-09-14T19:22:04.497Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=3490d9f6-3b82-4542-9115-b107e4c4a2e8 source=side_query
+2026-09-14T19:22:05.211Z [DEBUG] [pcost] $.ui.log: [pcost 19:22:05.210] turn.complete messages n=3 [["user",160101,"Here is a large TypeScript declaration file. Read "],["assistant",0,""],["assistant",6,"LOADED"]]
+2026-09-14T19:22:05.212Z [DEBUG] hooks module pcost turn.complete settled in 3.9ms (worker hop, next() included)
+2026-09-14T19:22:08.230Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=d7392f95-0d83-4376-9abe-bbc2a1762316 source=hook_prompt
+2026-09-14T19:22:09.659Z [DEBUG] Forked agent [plugin_model_fork] finished: 2 messages, types=[assistant, assistant], totalUsage: input=35 output=104 cacheRead=72848 cacheCreate=212
+2026-09-14T19:22:09.660Z [DEBUG] $.model.fork (pcost): 1444ms, 1 replies
+2026-09-14T19:22:09.661Z [DEBUG] [pcost] $.ui.log: [pcost 19:22:09.661] fork("in one sentence, what kind of file did I paste?") -> usage input=35 output=104 cacheRead=72848 cacheCreate=212 len=179 head="This is a TypeScript declaration file (.d.ts) that defines all the types for Claude Code's plugin hooks API, including e" in 1445ms
+2026-09-14T19:22:09.661Z [DEBUG] hooks module pcost command.run settled in 1446.4ms (worker hop, next() included)
+2026-09-14T19:22:12.688Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=505d3a4f-b3c0-4e0e-b874-f9de6d09fd02 source=hook_prompt
+2026-09-14T19:22:14.850Z [DEBUG] Forked agent [plugin_model_fork] finished: 2 messages, types=[assistant, assistant], totalUsage: input=30 output=136 cacheRead=73060 cacheCreate=0
+2026-09-14T19:22:14.850Z [DEBUG] $.model.fork (pcost): 2174ms, 1 replies
+2026-09-14T19:22:14.851Z [DEBUG] [pcost] $.ui.log: [pcost 19:22:14.851] fork("which module does the file declare?") -> usage input=30 output=136 cacheRead=73060 cacheCreate=0 len=122 head="This file declares the `'claude-code'` module, providing type definitions for Claude Code function hooks (the plugin API" in 2176ms
+2026-09-14T19:22:14.851Z [DEBUG] hooks module pcost command.run settled in 2176.4ms (worker hop, next() included)
+2026-09-14T19:22:17.877Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=2f34e656-384f-4ac6-94d5-2151f12d05e5 source=compact
+2026-09-14T19:22:31.554Z [DEBUG] Forked agent [reactive-compact] finished: 2 messages, types=[assistant, assistant], totalUsage: input=1650 output=1140 cacheRead=73060 cacheCreate=0
+2026-09-14T19:22:34.597Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=3c4a0c7d-2e7a-4546-b1c1-ac7b226154cc source=hook_prompt
+2026-09-14T19:22:36.594Z [DEBUG] Forked agent [plugin_model_fork] finished: 4 messages, types=[attachment, attachment, assistant, assistant], totalUsage: input=2951 output=145 cacheRead=22366 cacheCreate=0
+2026-09-14T19:22:36.594Z [DEBUG] $.model.fork (pcost): 2006ms, 1 replies
+2026-09-14T19:22:36.595Z [DEBUG] [pcost] $.ui.log: [pcost 19:22:36.595] fork("after compaction: what did I paste earlier?") -> usage input=2951 output=145 cacheRead=22366 cacheCreate=0 len=177 head="You pasted a TypeScript declaration file (claude-code.d.ts) containing type definitions for Claude Code's plugin hooks A" in 2007ms
+2026-09-14T19:22:36.596Z [DEBUG] hooks module pcost command.run settled in 2008.8ms (worker hop, next() included)
+2026-09-14T19:22:40.746Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=37ab8c91-96ec-42b1-aa2c-9371fa745dd1 source=side_query
+2026-09-14T19:22:41.494Z [DEBUG] [pcost] $.ui.log: [pcost 19:22:41.493] turn.complete messages n=13 [["user",160101,"Here is a large TypeScript declaration file. Read "],["assistant",0,""],["assistant",6,"LOADED"],["user",177,"<command-name>/aside</command-name>\n            <c"],["user",165,"<command-name>/aside</command-name>\n            <c"],["user",2888,"This session is being continued from a previous co"],["user",165,"<command-name>/aside</command-name>\n            <c"],["user",134,"<command-name>/compact</command-name>\n            "],["user",55,"<local-command-stdout>Compacted </local-command-st"],["user",173,"<command-name>/aside</command-name>\n            <c"],["user",30,"Reply with the word WARM only."],["assistant",0,""],["assistant",4,"WARM"]]
+2026-09-14T19:22:41.495Z [DEBUG] hooks module pcost turn.complete settled in 2.9ms (worker hop, next() included)
+2026-09-14T19:22:44.509Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=e22769f8-d4ba-4986-8238-7909826aab25 source=hook_prompt
+2026-09-14T19:22:45.894Z [DEBUG] Forked agent [plugin_model_fork] finished: 2 messages, types=[assistant, assistant], totalUsage: input=34 output=123 cacheRead=25689 cacheCreate=69
+2026-09-14T19:22:45.894Z [DEBUG] $.model.fork (pcost): 1396ms, 1 replies
+2026-09-14T19:22:45.895Z [DEBUG] [pcost] $.ui.log: [pcost 19:22:45.894] fork("after a new turn: what did I paste earlier?") -> usage input=34 output=123 cacheRead=25689 cacheCreate=69 len=129 head="You pasted a large TypeScript declaration file (claude-code.d.ts) containing type definitions for Claude Code's plugin h" in 1396ms
+2026-09-14T19:22:45.895Z [DEBUG] hooks module pcost command.run settled in 1397.9ms (worker hop, next() included)

@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "strict": false,
+  "target": "/home/user/aside/probes/p1/.claude-plugin/plugin.json",
+  "manifest": {
+    "file": "/home/user/aside/probes/p1/.claude-plugin/plugin.json",
+    "type": "plugin",
+    "errors": [],
+    "warnings": [
+      {
+        "path": "author",
+        "message": "No author information provided. Consider adding author details for plugin attribution",
+        "code": null
+      }
+    ],
+    "notes": []
+  },
+  "contents": [
+    {
+      "file": "/home/user/aside/probes/p1/hooks/hooks.json",
+      "type": "hooks",
+      "errors": [],
+      "warnings": [],
+      "notes": [
+        "./register.ts hooks: session.start, command.run{command=aside}, turn.complete",
+        "./register.ts calls: $.clock.after, $.clock.every, $.clock.sleep, $.command.register, $.model.fork, $.session.messages, $.session.surface, $.store.get, $.store.keys, $.store.set, $.ui.log"
+      ]
+    }
+  ]
+}

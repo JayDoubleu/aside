@@ -1,0 +1,27 @@
+{
+  "success": false,
+  "strict": false,
+  "target": "/home/user/anthropics/claude-code/mods/diff/.claude-plugin/plugin.json",
+  "manifest": {
+    "file": "/home/user/anthropics/claude-code/mods/diff/.claude-plugin/plugin.json",
+    "type": "plugin",
+    "errors": [],
+    "warnings": [],
+    "notes": []
+  },
+  "contents": [
+    {
+      "file": "/home/user/anthropics/claude-code/mods/diff/hooks/hooks.json",
+      "type": "hooks",
+      "errors": [
+        {
+          "path": "modules../register.ts",
+          "message": "diff: /home/user/anthropics/claude-code/mods/diff/hooks/register.ts, compiled line 490 `on(\"ui.focus\", { plugin: Names.PLUGIN_NAME }, ($, e, next) => {`: \"ui.focus\" is not an event; $ is always spelled $.noun.event(...) at the call site, on is always on(\"<event>\", hook), and next.to always next.to(e, \"<tier>\")",
+          "code": null
+        }
+      ],
+      "warnings": [],
+      "notes": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "strict": false,
+  "target": "/home/user/aside/.claude-plugin/plugin.json",
+  "manifest": {
+    "file": "/home/user/aside/.claude-plugin/plugin.json",
+    "type": "plugin",
+    "errors": [],
+    "warnings": [],
+    "notes": []
+  },
+  "contents": [
+    {
+      "file": "/home/user/aside/hooks/hooks.json",
+      "type": "hooks",
+      "errors": [],
+      "warnings": [],
+      "notes": [
+        "./register.ts hooks: session.start, command.run{command=aside}, ui.render{component=Pane}, ui.input{plugin=aside, element=q}, ui.press{plugin=aside}, ui.close{id=aside}",
+        "./register.ts calls: $.clock.now, $.command.register, $.model.complete, $.model.fork, $.session.messages, $.ui.close, $.ui.invalidate, $.ui.open, $.ui.resolve"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+
+======== screen after 1959 bytes (1/8) ========
+ ▐▛███▛█   Claude Code v2.1.270
+▝▜██████▀  Haiku 4.5 · Claude API
+  ▝▝ ▝▝    /tmp/claude-0/-home-user-aside/8b077ebe-0cae-598b-826c-74190c22ce60/scratchpad/pt2
+▎ Debug mode enabled · logging to /tmp/claude-0/-home-user-aside/8b077ebe-0cae-598b-826c-74190c22ce60/scratchpad/logs/e2e.log
+                                                                                                      auto mode unavailable for this model
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+❯ Try "edit <filepath> to..."
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⚠ Transcript saving is off — inherited CLAUDE_CODE_CHILD_SESSION marker · restart with CLAUDE_CODE_FORCE_SESSION_PERSISTENCE=1 to keep …
+  ⏸ manual mode on · ? for shortcuts
+
+======== screen after 3918 bytes (2/8) ========
+ ▐▛███▛█   Claude Code v2.1.270
+▝▜██████▀  Haiku 4.5 · Claude API
+  ▝▝ ▝▝    /tmp/claude-0/-home-user-aside/8b077ebe-0cae-598b-826c-74190c22ce60/scratchpad/pt2
+▎ Debug mode enabled · logging to /tmp/claude-0/-home-user-aside/8b077ebe-0cae-598b-826c-74190c22ce60/scratchpad/logs/e2e.log
+● witness: [witness 19:34:27.043] prompt.submit origin={"kind":"composer"} text="What is 2+2? Reply with the number only, no tools."
+❯ What is 2+2? Reply with the number only, no tools.
+● 4
+✻ Cogitated for 1s · done 7:34 PM
+● witness: [witness 19:34:28.230] turn.complete messages n=3 [["user","What is 2+2? Reply with the number
+✢ Choreographing… (1s · ↓ 25 tokens · thinking)
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+❯
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⚠ Transcript saving is off — inherited CLAUDE_CODE_CHILD_SESSION marker · restart with CLAUDE_CODE_FORCE_SESSION_PERSISTENCE=1 to keep …
+  ⏸ manual mode on · esc to interrupt
+
+======== screen after 5877 bytes (3/8) ========
+                                                                             │
+ ▐▛███▛█   Claude Code v2.1.270                                              │
+▝▜██████▀  Haiku 4.5 · Claude API                                            │
+  ▝▝ ▝▝    /…/8b077ebe-0cae-598b-826c-74190c22ce60/scratchpad/pt2            │
+                                                                             │
+▎ Debug mode enabled · logging to /tmp/claude-0/-home-user-aside/8b077ebe-0ca│
+▎ e-598b-826c-74190c22ce60/scratchpad/logs/e2e.log                           │
+                                                                             │
+● witness: [witness 19:34:27.043] prompt.submit                              │
+❯ What is 2+2? Reply with the number only, no tools.
+● 4
+✻ Cogitated for 1s · done 7:34 PM
+● witness: [witness 19:34:28.230] turn.complete messages n=3 [["user","What is 2+2? Reply with the number only, no
+  tools."],["assistant",""],["assistant","4"]]
+❯ /aside what did I ask you?
+* Generating…
+  ⎿  Tip: Use /permissions to pre-approve and pre-deny bash, edit, and MCP tools
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+❯
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⚠ Transcript saving is off — inherited CLAUDE_CODE_CHILD_SESSION marker · restart with CLAUDE_CODE_FORCE_SESSION_PERSISTENCE=1 to keep …
+  ⏸ manual mode on · esc to interrupt
+
+======== screen after 7836 bytes (4/8) ========
+                                                                             │
+ ▐▛███▛█   Claude Code v2.1.270                                              │
+▝▜██████▀  Haiku 4.5 · Claude API                                            │
+  ▝▝ ▝▝    /…/8b077ebe-0cae-598b-826c-74190c22ce60/scratchpad/pt2            │
+                                                                             │
+▎ Debug mode enabled · logging to /tmp/claude-0/-home-user-aside/8b077ebe-0ca│
+▎ e-598b-826c-74190c22ce60/scratchpad/logs/e2e.log                           │
+                                                                             │
+● witness: [witness 19:34:27.043] prompt.submit                              │
+  origin={"kind":"composer"} text="What is 2+2? Reply with the number        │
+  only, no tools."                                                           │
+                                                                             │
+❯ What is 2+2? Reply with the number only, no tools.                         │
+                                                                             │
+● 4                                                                          │
+                                                                             │
+✻ Cogitated for 1s · done 7:34 PM                                            │
+                                                                             │
+● witness: [witness 19:34:28.230] turn.complete messages n=3                 │
+  [["user","What is 2+2? Reply with the number only, no                      │
+  tools."],["assistant",""],["assistant","4"]]                               │
+* Generating…
+  ⎿  Tip: Use /permissions to pre-approve and pre-deny bash, edit, and MCP tools
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+❯
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⚠ Transcript saving is off — inherited CLAUDE_CODE_CHILD_SESSION marker · restart with CLAUDE_CODE_FORCE_SESSION_PERSISTENCE=1 to keep …
+  ⏸ manual mode on · esc to interrupt
+
+======== screen after 9795 bytes (5/8) ========
+                                                                             │
+ ▐▛███▛█   Claude Code v2.1.270                                              │
+▝▜██████▀  Haiku 4.5 · Claude API                                            │
+  ▝▝ ▝▝    /…/8b077ebe-0cae-598b-826c-74190c22ce60/scratchpad/pt2            │
+                                                                             │
+▎ Debug mode enabled · logging to /tmp/claude-0/-home-user-aside/8b077ebe-0ca│
+▎ e-598b-826c-74190c22ce60/scratchpad/logs/e2e.log                           │
+                                                                             │
+● witness: [witness 19:34:27.043] prompt.submit                              │
+  origin={"kind":"composer"} text="What is 2+2? Reply with the number        │
+  only, no tools."                                                           │
+                                                                             │
+❯ What is 2+2? Reply with the number only, no tools.                         │
+                                                                             │
+● 4                                                                          │
+                                                                             │
+✻ Cogitated for 1s · done 7:34 PM                                            │
+                                                                             │
+● witness: [witness 19:34:28.230] turn.complete messages n=3                 │
+  [["user","What is 2+2? Reply with the number only, no                      │
+  tools."],["assistant",""],["assistant","4"]]                               │
+                                                                             │
+❯ /aside what did I ask you?                                                 │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+* Generating…                                                                │
+  ⎿  Tip: Use /permissions to pre-approve and pre-deny bash, edit, and MCP   │
+     tools                                                                   │
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+❯
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⚠ Transcript saving is off — inherited CLAUDE_CODE_CHILD_SESSION marker · restart with CLAUDE_CODE_FORCE_SESSION_PERSISTENCE=1 to keep …
+  ⏸ manual mode on · esc to interrupt
+
+======== screen after 11754 bytes (6/8) ========
+                                                                             │2 questions
+ ▐▛███▛█   Claude Code v2.1.270                                              │you: what did I ask you?
+▝▜██████▀  Haiku 4.5 · Claude API                                            │aside: You asked me to calculate 2+2 and reply with the
+  ▝▝ ▝▝    /…/8b077ebe-0cae-598b-826c-74190c22ce60/scratchpad/pt2            │number only, without using tools.
+                                                                             │1222 ms · read 27721 · new 68 · out 96
+▎ Debug mode enabled · logging to /tmp/claude-0/-home-user-aside/8b077ebe-0ca│
+▎ e-598b-826c-74190c22ce60/scratchpad/logs/e2e.log                           │you: and what did you answer, in one sentence?
+                                                                             │aside: I answng…
+● witness: [witness 19:34:27.043] prompt.submit                              │
+  origin={"kind":"composer"} text="What is 2+2? Reply with the number        │> : Tab to focus, type, Enter to ask, Esc to leave ⏎ ask
+  only, no tools."                                                           │[ Clear ] [ Close ]
+                                                                             │
+❯ What is 2+2? Reply with the number only, no tools.                         │
+                                                                             │
+● 4                                                                          │
+                                                                             │
+✻ Cogitated for 1s · done 7:34 PM                                            │
+                                                                             │
+● witness: [witness 19:34:28.230] turn.complete messages n=3                 │
+  [["user","What is 2+2? Reply with the number only, no                      │
+  tools."],["assistant",""],["assistant","4"]]                               │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+❯
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⚠ Transcript saving is off — inherited CLAUDE_CODE_CHILD_SESSION marker · restart with CLAUDE_CODE_FORCE_SESSION_PERSISTENCE=1 to keep …
+  ⏸ manual mode on · ? for shortcuts
+
+======== screen after 13713 bytes (7/8) ========
+                                                                             │2 questions
+ ▐▛███▛█   Claude Code v2.1.270                                              │you: what did I ask you?
+▝▜██████▀  Haiku 4.5 · Claude API                                            │aside: You asked me to calculate 2+2 and reply with the
+  ▝▝ ▝▝    /…/8b077ebe-0cae-598b-826c-74190c22ce60/scratchpad/pt2            │number only, without using tools.
+                                                                             │1222 ms · read 27721 · new 68 · out 96
+▎ Debug mode enabled · logging to /tmp/claude-0/-home-user-aside/8b077ebe-0ca│
+▎ e-598b-826c-74190c22ce60/scratchpad/logs/e2e.log                           │you: and what did you answer, in one sentence?
+                                                                             │aside: I answered with just the number 4.
+● witness: [witness 19:34:27.043] prompt.submit                              │1300 ms · read 27721 · new 113 · out 66
+  origin={"kind":"composer"} text="What is 2+2? Reply with the number        │
+  only, no tools."                                                           │> : ctrl+x tab focuses the pane
+                                                                             │[ Clear ] [ Close ]
+❯ What is 2+2? Reply with the number only, no tools.                         │
+                                                                             │
+● 4                                                                          │
+                                                                             │
+✻ Cogitated for 1s · done 7:34 PM                                            │
+                                                                             │
+● witness: [witness 19:34:28.230] turn.complete messages n=3                 │
+  [["user","What is 2+2? Reply with the number only, no                      │
+  tools."],["assistant",""],["assistant","4"]]                               │
+                                                                             │
+● witness: [witness 19:34:54.094] prompt.submit                              │
+  origin={"kind":"composer"} text="Say OK."                                  │
+                                                                             │
+❯ Say OK.                                                                    │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+                                                                             │
+* Generating…                                                                │
+  ⎿  Tip: Use /permissions to pre-approve and pre-deny bash, edit, and MCP   │
+     tools                                                                   │
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+❯
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⚠ Transcript saving is off — inherited CLAUDE_CODE_CHILD_SESSION marker · restart with CLAUDE_CODE_FORCE_SESSION_PERSISTENCE=1 to keep …
+  ⏸ manual mode on · esc to interrupt
+
+======== screen after 15672 bytes (8/8) ========
+                                                                             │2 questions
+ ▐▛███▛█   Claude Code v2.1.270                                              │you: what did I ask you?
+▝▜██████▀  Haiku 4.5 · Claude API                                            │aside: You asked me to calculate 2+2 and reply with the
+  ▝▝ ▝▝    /…/8b077ebe-0cae-598b-826c-74190c22ce60/scratchpad/pt2            │number only, without using tools.
+                                                                             │1222 ms · read 27721 · new 68 · out 96
+▎ Debug mode enabled · logging to /tmp/claude-0/-home-user-aside/8b077ebe-0ca│
+▎ e-598b-826c-74190c22ce60/scratchpad/logs/e2e.log                           │you: and what did you answer, in one sentence?
+                                                                             │aside: I answered with just the number 4.
+● witness: [witness 19:34:27.043] prompt.submit                              │1300 ms · read 27721 · new 113 · out 66
+  origin={"kind":"composer"} text="What is 2+2? Reply with the number        │
+  only, no tools."                                                           │> : ctrl+x tab focuses the pane
+                                                                             │[ Clear ] [ Close ]
+❯ What is 2+2? Reply with the number only, no tools.                         │
+                                                                             │
+● 4                                                                          │
+                                                                             │
+✻ Cogitated for 1s · done 7:34 PM                                            │
+                                                                             │
+● witness: [witness 19:34:28.230] turn.complete messages n=3                 │
+  [["user","What is 2+2? Reply with the number only, no                      │
+  tools."],["assistant",""],["assistant","4"]]                               │
+                                                                             │
+● witness: [witness 19:34:54.094] prompt.submit                              │
+  origin={"kind":"composer"} text="Say OK."                                  │
+                                                                             │
+❯ Say OK.                                                                    │
+                                                                             │
+● OK                                                                         │
+                                                                             │
+✻ Worked for 0s · done 7:34 PM                                               │
+                                                                             │
+● witness: [witness 19:34:54.877] turn.complete messages n=6                 │
+  [["user","What is 2+2? Reply with the number only, no                      │
+  tools."],["assistant",""],["assistant","4"],["user","Say                   │
+  OK."],["assistant",""],["assistant","OK"]]                                 │
+  /exit                                Exit the CLI
+  /context                             Visualize current context usage as a colored grid
+  /design                              Create a design canvas - a multi-artboard visual design published as an Artifact that runs Claude
+                                       Design's canvas editor (an early preview of Claude Design inside Claude Code). You DRAFT the desig…
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+❯ /exituuu
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⚠ Transcript saving is off — inherited CLAUDE_CODE_CHILD_SESSION marker · restart with CLAUDE_CODE_FORCE_SESSION_PERSISTENCE=1 to keep …
+  ⏸ manual mode on

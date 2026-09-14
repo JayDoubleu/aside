@@ -1,0 +1,1 @@
+{ "description": "witness", "modules": ["./register.ts"] }

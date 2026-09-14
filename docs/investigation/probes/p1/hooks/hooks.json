@@ -1,0 +1,1 @@
+{ "description": "probe 1", "modules": ["./register.ts"] }

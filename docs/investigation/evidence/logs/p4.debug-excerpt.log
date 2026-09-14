@@ -1,0 +1,49 @@
+2026-09-14T19:28:34.621Z [DEBUG] hooks module p2 loaded (worker, environment 1, tier user); events: session.start,ui.render,ui.press,ui.input,ui.select,ui.open,ui.close,command.run,prompt.submit,turn.complete
+2026-09-14T19:28:34.625Z [DEBUG] plugin.register: p2 (user, p2@inline), judged by core alone: admitted
+2026-09-14T19:28:34.779Z [DEBUG] hooks module p2 ui.render settled in 63.2ms (worker hop, next() included) key=above-prompt
+2026-09-14T19:28:34.798Z [DEBUG] [p2] $.ui.log: [p2 19:28:34.789] session.start isInteractive=true surface="terminal"
+2026-09-14T19:28:34.836Z [DEBUG] hooks module p2 session.start settled in 71.6ms (worker hop, next() included)
+2026-09-14T19:28:34.938Z [DEBUG] [p2] $.ui.log: [p2 19:28:34.938] render AbovePrompt #2 surface=terminal isWorking=false hasSurvey=false maxRows=16 viewport={"columns":140,"rows":45}
+2026-09-14T19:28:34.940Z [DEBUG] hooks module p2 ui.render settled in 2.1ms (worker hop, next() included) key=above-prompt
+2026-09-14T19:28:47.254Z [DEBUG] [p2] $.ui.log: [p2 19:28:47.234] prompt.submit origin={"kind":"composer"} text="Count from 1 to 400, one number per line, no other text, no tools."
+2026-09-14T19:28:47.255Z [DEBUG] [p2] $.ui.log: [p2 19:28:47.250] render AbovePrompt #3 surface=terminal isWorking=true hasSurvey=false maxRows=16 viewport={"columns":140,"rows":45}
+2026-09-14T19:28:47.301Z [DEBUG] hooks module p2 ui.render settled in 51.3ms (worker hop, next() included) key=above-prompt
+2026-09-14T19:28:47.301Z [DEBUG] hooks module p2 prompt.submit settled in 68.5ms (worker hop, next() included)
+2026-09-14T19:28:47.307Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=a733ec01-956c-46a8-8706-d65e8e29778f source=repl_main_thread
+2026-09-14T19:28:52.630Z [DEBUG] [p2] $.ui.log: [p2 19:28:52.626] ui.input {"plugin":"p2","element":"bandq","component":"AbovePrompt","requestId":"above-prompt","surface":"terminal","kind":"change","value":"mid turn q"}
+2026-09-14T19:28:52.637Z [DEBUG] [p2] $.ui.log: [p2 19:28:52.632] onInput change value="mid turn q"
+2026-09-14T19:28:52.642Z [DEBUG] hooks module p2 ui.input settled in 16.6ms (worker hop, next() included) key=above-prompt
+2026-09-14T19:28:52.642Z [DEBUG] ui.input p2/bandq (change) in AbovePrompt from terminal: settled in 16.9ms
+2026-09-14T19:28:54.107Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=bacc51d7-5e59-4930-a88d-c3f615f492c4 source=side_query
+2026-09-14T19:28:54.110Z [DEBUG] [p2] $.ui.log: [p2 19:28:54.109] turn.complete messages n=3 [["user","Count from 1 to 400, one number per line, no other text, no "],["assistant",""],["assistant","1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n"]]
+2026-09-14T19:28:54.129Z [DEBUG] hooks module p2 turn.complete settled in 30.9ms (worker hop, next() included)
+2026-09-14T19:28:54.129Z [DEBUG] hooks module p2 ui.render settled in 5.1ms (worker hop, next() included) key=above-prompt
+2026-09-14T19:28:54.130Z [DEBUG] [p2] $.ui.log: [p2 19:28:54.124] render AbovePrompt #4 surface=terminal isWorking=false hasSurvey=false maxRows=16 viewport={"columns":140,"rows":45}
+2026-09-14T19:28:54.131Z [DEBUG] [p2] $.ui.log: [p2 19:28:54.129] ui.input {"plugin":"p2","element":"bandq","component":"AbovePrompt","requestId":"above-prompt","surface":"terminal","kind":"submit","value":"mid turn q"}
+2026-09-14T19:28:54.132Z [ERROR] hook failed: p2: ui.press/ui.input/ui.select: no handler is held under handle 9 (ui.input; skipped; what is below it ran in its place)
+2026-09-14T19:28:54.132Z [DEBUG] [p2] $.ui.log: ui.input hook skipped: threw ui.press/ui.input/ui.select: no handler is held under handle 9
+2026-09-14T19:28:54.155Z [ERROR] hooks chain failed: ui.press/ui.input/ui.select: no handler is held under handle 9
+2026-09-14T19:28:54.155Z [ERROR] hooks chain failed: ui.press/ui.input/ui.select: no handler is held under handle 9
+2026-09-14T19:28:54.155Z [ERROR] ui.input p2: ui.press/ui.input/ui.select: no handler is held under handle 9
+2026-09-14T19:29:01.164Z [DEBUG] [p2] $.ui.log: [p2 19:29:01.143] command.run aside args="mid turn pane q" origin={"kind":"composer"} presentation=undefined
+2026-09-14T19:29:01.176Z [DEBUG] [p2] $.ui.log: [p2 19:29:01.158] render AbovePrompt #5 surface=terminal isWorking=true hasSurvey=false maxRows=16 viewport={"columns":140,"rows":45}
+2026-09-14T19:29:01.177Z [DEBUG] [p2] $.ui.log: [p2 19:29:01.176] ui.open {"id":"aside","title":"aside","focus":true}
+2026-09-14T19:29:01.178Z [DEBUG] hooks module p2 ui.render settled in 20.4ms (worker hop, next() included) key=above-prompt
+2026-09-14T19:29:01.179Z [DEBUG] hooks module p2 ui.open settled in 3.7ms (worker hop, next() included)
+2026-09-14T19:29:01.213Z [DEBUG] [p2] $.ui.log: [p2 19:29:01.196] render Pane #1 placement=dock isFocused=true bodyColumns=62 scroll={"offset":0,"bodyRows":34}
+2026-09-14T19:29:01.214Z [DEBUG] hooks module p2 command.run settled in 72.0ms (worker hop, next() included)
+2026-09-14T19:29:01.216Z [DEBUG] hooks module p2 ui.render settled in 20.7ms (worker hop, next() included) key=aside
+2026-09-14T19:29:01.219Z [DEBUG] [API REQUEST] /v1/messages x-client-request-id=91619c7e-fea7-4ce8-9221-e1d4c77464d4 source=hook_prompt
+2026-09-14T19:29:01.239Z [DEBUG] [p2] $.ui.log: [p2 19:29:01.233] render Pane #2 placement=dock isFocused=true bodyColumns=62 scroll={"offset":0,"bodyRows":34}
+2026-09-14T19:29:01.240Z [DEBUG] [p2] $.ui.log: [p2 19:29:01.233] render AbovePrompt #6 surface=terminal isWorking=false hasSurvey=false maxRows=16 viewport={"columns":140,"rows":45}
+2026-09-14T19:29:01.241Z [DEBUG] hooks module p2 ui.render settled in 9.0ms (worker hop, next() included) key=aside
+2026-09-14T19:29:01.241Z [DEBUG] hooks module p2 ui.render settled in 9.1ms (worker hop, next() included) key=above-prompt
+2026-09-14T19:29:03.226Z [DEBUG] Forked agent [plugin_model_fork] finished: 2 messages, types=[assistant, assistant], totalUsage: input=31 output=127 cacheRead=28535 cacheCreate=0
+2026-09-14T19:29:03.226Z [DEBUG] $.model.fork (p2): 2024ms, 1 replies
+2026-09-14T19:29:03.228Z [DEBUG] [p2] $.ui.log: [p2 19:29:03.227] pane fork settled in 2048ms -> {"input_tokens":[REDACTED],"output_tokens":[REDACTED],"cache_read_input_tokens":[REDACTED],"cache_creation_input_tokens":[REDACTED]}; store.set + invalidate
+2026-09-14T19:29:03.243Z [DEBUG] [p2] $.ui.log: [p2 19:29:03.243] render Pane #3 placement=dock isFocused=true bodyColumns=62 scroll={"offset":0,"bodyRows":34}
+2026-09-14T19:29:03.245Z [DEBUG] [p2] $.ui.log: [p2 19:29:03.244] render AbovePrompt #7 surface=terminal isWorking=false hasSurvey=false maxRows=16 viewport={"columns":140,"rows":45}
+2026-09-14T19:29:03.245Z [DEBUG] hooks module p2 ui.render settled in 3.0ms (worker hop, next() included) key=aside
+2026-09-14T19:29:03.246Z [DEBUG] hooks module p2 ui.render settled in 3.2ms (worker hop, next() included) key=above-prompt
+2026-09-14T19:29:19.246Z [DEBUG] [p2] $.ui.log: [p2 19:29:19.214] render Pane #4 placement=dock isFocused=false bodyColumns=62 scroll={"offset":0,"bodyRows":34}
+2026-09-14T19:29:19.247Z [DEBUG] hooks module p2 ui.render settled in 33.3ms (worker hop, next() included) key=aside

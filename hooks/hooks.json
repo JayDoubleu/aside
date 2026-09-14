@@ -1,0 +1,4 @@
+{
+  "description": "aside: /aside opens a read-only side-chat pane answered by $.model.fork over the session's transcript (or, while a turn runs, a plain completion over its text); it never writes to the main thread",
+  "modules": ["./register.ts"]
+}

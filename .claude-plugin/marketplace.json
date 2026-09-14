@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "aside",
+  "version": "0.1.0",
+  "description": "aside: a read-only side chat pane for Claude Code",
+  "owner": { "name": "JayDoubleu" },
+  "plugins": [
+    {
+      "name": "aside",
+      "description": "Read-only side chat: /aside opens a pane where you ask about the session so far, answered by a tool-less fork of the transcript; nothing is written back into the main thread.",
+      "version": "0.1.0",
+      "author": { "name": "JayDoubleu" },
+      "source": "./",
+      "category": "productivity",
+      "keywords": ["side-chat", "read-only", "pane", "mod"]
+    }
+  ]
+}

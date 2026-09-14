@@ -1,0 +1,14 @@
+{
+  "name": "aside-claude-code-mod",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Read-only side chat pane for Claude Code (function-hooks mod)",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "validate": "claude plugin validate .claude-plugin/plugin.json --strict && claude plugin validate .claude-plugin/marketplace.json --strict",
+    "test": "node --test \"tests/**/*.test.ts\"",
+    "check": "npm run validate && npm test"
+  }
+}

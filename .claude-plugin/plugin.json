@@ -1,0 +1,40 @@
+{
+  "name": "aside",
+  "version": "0.1.0",
+  "description": "Read-only side chat: /aside opens a pane beside the transcript where you ask about the session so far; answers come from a tool-less fork of the session's own transcript and nothing is written back into the main thread.",
+  "author": {
+    "name": "JayDoubleu"
+  },
+  "homepage": "https://github.com/JayDoubleu/aside",
+  "repository": "https://github.com/JayDoubleu/aside",
+  "license": "MIT",
+  "keywords": [
+    "side-chat",
+    "read-only",
+    "pane",
+    "function-hooks",
+    "mod"
+  ],
+  "userConfig": {
+    "liveFallback": {
+      "type": "boolean",
+      "description": "Until the session's first turn has completed there is no transcript snapshot to fork. On: answer such a question at once from the transcript text through a plain completion (uncached, capped at 60k characters, marked 'live' in the pane). Off: queue it and answer it with a fork when the turn ends.",
+      "default": true,
+      "title": "Answer before the first turn completes"
+    },
+    "liveModel": {
+      "type": "string",
+      "description": "Model alias or id for 'live' answers (a --model value); the fork always uses the session's model.",
+      "default": "haiku",
+      "title": "Model for live answers"
+    },
+    "maxHistory": {
+      "type": "number",
+      "description": "How many earlier side exchanges ride along in each question's prompt.",
+      "default": 8,
+      "min": 1,
+      "max": 50,
+      "title": "Side-chat history carried per question"
+    }
+  }
+}

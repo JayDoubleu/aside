@@ -89,7 +89,10 @@ A fork costs one prompt-cache read of the whole session prefix plus a few dozen 
 ```sh
 npm run validate     # claude plugin validate, offline, no API key
 npm test             # node --test, no API key
+npm run eval         # claude plugin eval: real sessions, needs credentials, spends a few cents
 ```
+
+The eval (`evals/`) checks the mod is invisible to the model: a trivial prompt gets the same reply with and without the plugin loaded. It passed 2/2 runs on each arm on 2.1.270 (`docs/investigation/evidence/eval-invisible-to-the-model.json`).
 
 Tests run on Node 22's native TypeScript support against a small fake engine (`tests/harness.ts`) that dispatches events through the registered hooks the way Claude Code does. `claude plugin test` is 2.1.271+ and not used yet.
 

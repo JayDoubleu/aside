@@ -1,0 +1,177 @@
+{
+ "schemaVersion": 1,
+ "claudeVersion": "2.1.270",
+ "startedAt": "2026-09-14T20:03:31.015Z",
+ "durationSeconds": 13,
+ "costUsd": 0.0781618,
+ "partial": false,
+ "suite": {
+  "root": "/home/user/aside",
+  "ablation": "with-without",
+  "modelOverride": "claude-haiku-4-5-20251001",
+  "threshold": 1,
+  "concurrency": 1,
+  "plugins": [
+   {
+    "name": "aside",
+    "version": "0.1.0",
+    "path": "/home/user/aside"
+   }
+  ]
+ },
+ "cases": [
+  {
+   "name": "invisible-to-the-model",
+   "dir": "evals/invisible-to-the-model",
+   "source": "prose",
+   "promptMarkdown": "Reply with exactly the single word READY and nothing else. Do not use any tools.",
+   "runsPerCase": 2,
+   "timeoutSeconds": 300,
+   "maxTurns": 2,
+   "graders": [
+    {
+     "name": "criteria",
+     "type": "llm",
+     "weight": 1,
+     "graderMarkdown": "Pass when the assistant's final response is the single word READY (case-insensitive, punctuation\ntolerated) and nothing else: no mention of a side chat, a pane, \"aside\", any slash command, any\nplugin, or any question about the conversation. The mod under test draws a pane that only a\nperson can see; the model must show no sign that it exists.",
+     "config": {
+      "criteria": "Pass when the assistant's final response is the single word READY (case-insensitive, punctuation\ntolerated) and nothing else: no mention of a side chat, a pane, \"aside\", any slash command, any\nplugin, or any question about the conversation. The mod under test draws a pane that only a\nperson can see; the model must show no sign that it exists.",
+      "focus": "last_message"
+     }
+    }
+   ],
+   "arms": {
+    "with": [
+     {
+      "score": 1,
+      "passed": true,
+      "turns": 1,
+      "costUsd": 0.030261,
+      "judgeCostUsd": 0.000576,
+      "durationSeconds": 4,
+      "startedAt": "2026-09-14T20:03:31.039Z",
+      "error": null,
+      "tracePath": "<tmp>/out/trace.jsonl",
+      "skippedPaidGraders": false,
+      "graders": [
+       {
+        "name": "criteria",
+        "passed": true,
+        "weight": 1,
+        "explanation": "judge votes: PASS PASS PASS",
+        "withOnly": false,
+        "scored": true,
+        "judgeVotes": [
+         true,
+         true,
+         true
+        ],
+        "evidence": "READY"
+       }
+      ]
+     },
+     {
+      "score": 1,
+      "passed": true,
+      "turns": 1,
+      "costUsd": 0.0160146,
+      "judgeCostUsd": 0.000576,
+      "durationSeconds": 3,
+      "startedAt": "2026-09-14T20:03:34.659Z",
+      "error": null,
+      "tracePath": "<tmp>/out/trace.jsonl",
+      "skippedPaidGraders": false,
+      "graders": [
+       {
+        "name": "criteria",
+        "passed": true,
+        "weight": 1,
+        "explanation": "judge votes: PASS PASS PASS",
+        "withOnly": false,
+        "scored": true,
+        "judgeVotes": [
+         true,
+         true,
+         true
+        ],
+        "evidence": "READY"
+       }
+      ]
+     }
+    ],
+    "without": [
+     {
+      "score": 1,
+      "passed": true,
+      "turns": 1,
+      "costUsd": 0.0159156,
+      "judgeCostUsd": 0.0005759999999999999,
+      "durationSeconds": 3,
+      "startedAt": "2026-09-14T20:03:38.075Z",
+      "error": null,
+      "tracePath": "<tmp>/out/trace.jsonl",
+      "skippedPaidGraders": false,
+      "graders": [
+       {
+        "name": "criteria",
+        "passed": true,
+        "weight": 1,
+        "explanation": "judge votes: PASS PASS PASS",
+        "withOnly": false,
+        "scored": true,
+        "judgeVotes": [
+         true,
+         true,
+         true
+        ],
+        "evidence": "READY"
+       }
+      ]
+     },
+     {
+      "score": 1,
+      "passed": true,
+      "turns": 1,
+      "costUsd": 0.0159706,
+      "judgeCostUsd": 0.0005759999999999997,
+      "durationSeconds": 3,
+      "startedAt": "2026-09-14T20:03:41.237Z",
+      "error": null,
+      "tracePath": "<tmp>/out/trace.jsonl",
+      "skippedPaidGraders": false,
+      "graders": [
+       {
+        "name": "criteria",
+        "passed": true,
+        "weight": 1,
+        "explanation": "judge votes: PASS PASS PASS",
+        "withOnly": false,
+        "scored": true,
+        "judgeVotes": [
+         true,
+         true,
+         true
+        ],
+        "evidence": "READY"
+       }
+      ]
+     }
+    ]
+   },
+   "aggregates": {
+    "score": 1,
+    "passRate": 1,
+    "scoreWithout": 1,
+    "passRateWithout": 1,
+    "delta": 0
+   }
+  }
+ ],
+ "aggregates": {
+  "casesTotal": 1,
+  "casesPassed": 1,
+  "overallScore": 1,
+  "overallPassRate": 1,
+  "meanDelta": 0
+ }
+}
